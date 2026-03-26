@@ -1,32 +1,75 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Explore our codes in our amazing site!">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="CACP">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CACP</title>
-<script src = "js/main.js"> </script>
-<style>
-.norm_link {color: blue; text_color: black; text-decoration: none}
-	.contact_us { color: white; background-color: blue; text-color: white; position:fixed; bottom: 0%; right:0%; height:10vh; width:100%; text-align: center; display: flex; align-items: center; justify-content: space-around;}
-</style>
-</head>
-<body background = "./images/background.png">
-<div style = "background-color:orange; display:block; position: static; top: 0%; right: 0%; height: 97vh; width: 5.75%"  id ="tools">
-<a href = "Homepage.html"  class = "norm_link" id = "home">
-<b>  Home</b></a>
-<br>
-<br>
-<br>
-<a href = "about_us.html" class = "norm_link" id = "stuff">
-<b>  About Us</b></a>
-<br>
-<br>
-<br>
-<a href = "products.html" class = "norm_link" id = "stuff">
-<b>  Our Products</b></a>
-<br>
+<html lang="en">
+  <head>
+    <title>CACP</title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main-stylesheet-1.css">
+    <link rel="stylesheet" href="text-style-1.css">
+    <link rel="stylesheet" href="text-style-2.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+    .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+    .fa-anchor,.fa-coffee {font-size:200px}
+    </style>
+  </head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-green w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="products.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Products</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Test</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Test</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-blue w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">CACP</h1>
+  <p class="w3-xlarge">A software conpany founded in 2024!</p>
+  <button href="about.html"class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Learn More</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-green w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Test</h1>
+      <h5 class="w3-padding-32">Test</h5>
+
+      <p class="w3-text-grey">Test</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-blue w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Test</h1>
+      <h5 class="w3-padding-32">Test</h5>
+
+      <p class="w3-text-grey">Test</p>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity"> 
+ </div>
+ <p>Made By CACP, Copyright 2026</p>
+ <!-- Footer end. -->
+ </footer>
+
 </body>
 </html>
