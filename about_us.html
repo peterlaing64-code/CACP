@@ -12,8 +12,28 @@
 	.norm_link { color: black; text_color: black; text-decoration: none}
 	.contact_us { color: white; background-color: blue; text-color: white; position:fixed; bottom: 0%; right:0%; height:10vh; width:100%; text-align: center; display: flex; align-items: center; justify-content: space-around;}
 </style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main-stylesheet-1.css">
+    <link rel="stylesheet" href="text-style-1.css">
+    <link rel="stylesheet" href="text-style-2.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+    .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+    .fa-anchor,.fa-coffee {font-size:200px}
+    </style>
 </head>
 <body>
+	
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-orange w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="products.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Products</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Test</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Test</a>
+  </div>
+</div>
 <div style = "height: 90vh; width: 100%; text-align: center; font-size: 120%">
 <h1>Owners:</h1>
 <h4>Ben</h4>
@@ -21,31 +41,12 @@
 <h4>Daniel</h4>
 <h1>Programmers:</h2>
 <h3>Python:</h3>
-<h4>Bilgihan & Peter - head of python</h4>
+<h4>Peter - head of python</h4>
 <h3>Web Design (HTML)</h3>
 <h4>Daniel - head of web design</h4>
+<h4>Peter - head of web design</h4>
 <h1>Graphic Design</h2>
 <h4>Michael - head of graphic design</h4>
 </div>
-<div style = "background-color:orange; display:block; position: fixed; top: 0%; left: 0.2%; height: 100vh; width: 10%"  id ="tools">
-<a href = "Homepage.html" class = "norm_link" id = "home">
-<b> Home</b></a>
-<br>
-<br>
-<a href = "about_us.html" class = "norm_link" id = "stuff">
-<b> About Us</b></a>
-<br>
-<br>
-<a href = "products.html" class = "norm_link" id = "stuff">
-<b> Our Products</b></a>
-<br>
-<br>
-</div>
-<div class = "contact_us" style = "opacity:1" id = "contact">
-<a href = "mailto:cacpprogramming@gmail.com" class = "norm_link" style = "font-size: 5vh;">contact us</a>
-<div onclick = "
-no_contact()
-" style = "height:70%; aspect-ratio: 1 / 1; background-color: white; cursor: pointer; position: absolute; right: 3% ">
-<b style = "color: black; font-size: 7vh;">X</b>
 </div>
 </div>
